@@ -10,9 +10,6 @@ EPUB Compressor is a simple yet powerful application designed to help you compre
 - [Usage](#usage)
   - [Running the Application](#running-the-application)
   - [Using the GUI](#using-the-gui)
-  - [Command Line Usage](#command-line-usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Getting Started
 
@@ -34,8 +31,6 @@ To use EPUB Compressor, follow these steps:
 
 ## Usage
 
-EPUB Compressor can be used in two ways: through the graphical user interface (GUI) or via the command line. Choose the method that best suits your needs.
-
 ### Running the Application
 
 1. Double-click the `epub-compressor.exe` file to launch the EPUB Compressor GUI.
@@ -43,7 +38,8 @@ EPUB Compressor can be used in two ways: through the graphical user interface (G
 2. Use the GUI to specify the following settings:
    - **Input Folder**: The folder containing the EPUB files you want to compress.
    - **Compression Percentage**: The desired level of compression as a percentage.
-   - **Output Folder**: (Optional) The folder where you want the compressed EPUB files to be saved. If left empty, the compressed files will be stored in the same directory as the original files.
+
+The compressed files will be stored in the same directory as the original files.
 
 3. Click the "Compress" button to start the compression process.
 
@@ -62,31 +58,3 @@ The GUI provides a user-friendly interface for compressing EPUB files:
 - **Output Folder**: (Optional) Click the "Browse" button to choose a different folder to save the compressed EPUB files. If left empty, the compressed files will be saved in the same folder as the original files.
 
 - **Compress Button**: Click this button to start the compression process.
-
-### Command Line Usage
-
-EPUB Compressor can also be used from the command line, allowing for automation and scripting. Here's how to use it:
-
-```plaintext
-epub-compressor.exe --input <input_folder> --percentage <compression_percentage> [--output <output_folder>]
-```
-
-- `<input_folder>`: The folder containing the EPUB files you want to compress.
-
-- `<compression_percentage>`: The desired level of compression as a percentage.
-
-- `<output_folder>` (optional): The folder where you want the compressed EPUB files to be saved. If not specified, the compressed files will be stored in the same folder as the original files.
-
-Example:
-
-```plaintext
-epub-compressor.exe --input "C:\MyEbooks" --percentage 30 --output "C:\CompressedEbooks"
-```
-
-## Contributing
-
-Thank you for considering contributing to EPUB Compressor! If you'd like to contribute, please fork the repository, create a new branch, make your changes, and then submit a pull request. You can also report issues on the [GitHub Issues page](https://github.com/your-username/your-repo/issues).
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
