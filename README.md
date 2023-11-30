@@ -49,7 +49,7 @@ The compressed files will be stored in the same directory as the original files.
 
 The GUI provides a user-friendly interface for compressing EPUB files:
 
-![EPUB Compressor GUI](gui-screenshot.png)
+![EPUB Compressor GUI](/media/gui-screenshot.png)
 
 - **Input Folder**: Click the "Browse" button to select the folder containing your EPUB files.
 
